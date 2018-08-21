@@ -77,7 +77,7 @@
               "Team":                   "{{user `team`}}"
           },
           "associate_public_ip_address": "false",
-          "ssh_private_ip": "true",
+          "ssh_interface": "private_ip",
           "ami_name": "{{user `Name`}} {{timestamp}}",
           "ami_description":      "{{user `Name`}} AMI",
           "region": "{{user `region`}}",
