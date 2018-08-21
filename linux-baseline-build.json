@@ -76,7 +76,7 @@
               "SupportEmail":           "{{user `supportemail`}}",
               "Team":                   "{{user `team`}}"
           },
-          "associate_public_ip_address": true,
+          "associate_public_ip_address": false,
           "ami_name": "{{user `Name`}} {{timestamp}}",
           "ami_description":      "{{user `Name`}} AMI",
           "region": "{{user `region`}}",
